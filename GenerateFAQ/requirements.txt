@@ -1,0 +1,5 @@
+python-dotenv
+langchain_community
+pypdf
+google-api-python-client
+google-generativeai

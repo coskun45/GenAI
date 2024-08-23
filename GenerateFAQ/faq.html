@@ -1,0 +1,82 @@
+ 
+    <!DOCTYPE html>
+    <html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FAQ</title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding:0;
+            background-color: #f4f4f4;
+            }
+            .faq-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            }
+            .faq-item h3 {
+            margin:0;
+            padding: 10px;
+            cursor: pointer;
+            background-color: #f9f9f9;
+            color: black;
+            border-radius: 5px;
+            }
+            .faq-item p {
+            margin: 0;
+            padding: 10px;
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            }
+        </style>
+        <script>
+            function toggleAnswer(id){
+                var answer = document.getElementById(id);
+                if (answer.style.display === "none" || answer.style.display === ""){
+                    answer.style.display = "block";
+                }else{
+                    answer.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="faq-container">
+
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer('answer0')">Wer hat den Scrum Guide geschrieben?</h3>
+            <p id="answer0">Ken Schwaber und Jeff Sutherland haben den Scrum Guide geschrieben.</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer('answer1')">Wie viele Seiten umfasst der Scrum Guide 2020?</h3>
+            <p id="answer1">13</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer('answer2')">Warum ist es wichtig, den Scrum Guide in seiner Gesamtheit zu befolgen und nicht nur Teile davon zu implementieren?</h3>
+            <p id="answer2">Wenn man nur Teile von Scrum implementiert, ist das Ergebnis nicht Scrum. Scrum funktioniert nur in seiner Gesamtheit und bietet einen Rahmen für andere Techniken, Methoden und Praktiken. Die einzelnen Teile von Scrum sind aufeinander abgestimmt und ergänzen sich gegenseitig, um die Effektivität zu maximieren. Daher ist es wichtig, den Scrum Guide in seiner Gesamtheit zu befolgen, um die Vorteile von Scrum voll auszuschöpfen.</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3 onclick="toggleAnswer('answer3')">Was ist der Scrum Guide?</h3>
+            <p id="answer3">Der Scrum Guide ist ein Leitfaden, der die Definition von Scrum enthält. Er wurde von Ken Schwaber und Jeff Sutherland in den frühen 1990er Jahren entwickelt und dient dazu, Menschen auf der ganzen Welt beim Verständnis von Scrum zu helfen. Der Guide wird regelmäßig aktualisiert und enthält die Regeln und Prinzipien von Scrum, die für die erfolgreiche Anwendung des Frameworks unerlässlich sind.</p>
+        </div>
+     
+        </div>
+    </body>
+    </html>
+    
