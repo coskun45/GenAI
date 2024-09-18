@@ -168,7 +168,7 @@ B. Else, if there is no need for revisons, respons with the following format:
 """
 
 class CustomerRelationOfficer(Agent):
-    def ger_user_intent(self, max_interaction=5):
+    def ger_user_intent(self, max_interaction=3):
         msg= """ Hello! I'm your Customer Relation Officer. Let's discuss your report needs. 
         What's the main topic of your report?
         """

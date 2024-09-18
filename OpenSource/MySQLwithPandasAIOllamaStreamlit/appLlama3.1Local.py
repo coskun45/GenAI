@@ -3,6 +3,9 @@ import streamlit as st
 from pandasai.connectors import MySQLConnector
 from pandasai import SmartDataframe
 
+
+
+
 my_connector = MySQLConnector(
     config={
         "host":"localhost",
