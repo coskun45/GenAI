@@ -1,0 +1,5 @@
+1.) write first 5 rows
+2.) plot tabelle anhand 'durchführungsweg'
+3.)  Wieviele 'Direktversicherung' bestehen?  
+4.) Wieviele Verträge bestehen mit einem Beitrag unter 200 EUR?
+5.) Wie viele Versicherte sind unter 50 Jahre alt und haben einen Vertrag mit einer Zahlweise unter 200 EUR?

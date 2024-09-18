@@ -1,0 +1,1 @@
+- linux ile gpu ile calistirilmali
