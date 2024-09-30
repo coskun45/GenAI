@@ -172,10 +172,14 @@ class CustomerRelationOfficer(Agent):
         msg= """ Hello! I'm your Customer Relation Officer. Let's discuss your report needs. 
         What's the main topic of your report?
         """
+        print("hier1")
         conversation=[f"CRO: {msg}"]
         topic = input(msg)
+        print(topic)
         conversation.append(f"User: {topic}")
         for i in range(max_interaction):
+            print("hier2")
+
             prompt = f"""
             -------------------------
             The current conversation:
@@ -189,11 +193,14 @@ class CustomerRelationOfficer(Agent):
             conversation.append((f"CRO: {response}"))
 
             if response.startswith("SUMMARY:"):
+                print("hier3")
+
                 return response
             
             if i < max_interaction-1:
                 user_input = input("Your response: ")
                 conversation.append(f"User: {user_input}")
+                print("heir4")
 
         summary_prompt = f"""We've reached max interactions. Now, summarize the userÄs intent and expectations based on this conversation:
         {' '.join(conversation)}
@@ -206,7 +213,10 @@ class CustomerRelationOfficer(Agent):
         """
         response = self.generate_response(summary_prompt)
         print_formatted_md(response)
+        print("hier5")
         return response
+    
+
     def deliver_report(self,report):
         print("\nYour report is ready. Here it is:")
         print_formatted_md(report)
@@ -251,29 +261,29 @@ def generate_report():
     user_intent= cro.ger_user_intent()
     print("\n------------CRO-----------------")
     print("\nUser intent and expectations gathered")
-    print(f"\n-----------AUTHOR-----------------")
-    report = author.write_report(user_intent)
-    max_rounds = 3
-    for i in range(max_rounds):
+    # print(f"\n-----------AUTHOR-----------------")
+    # report = author.write_report(user_intent)
+    # max_rounds = 3
+    # for i in range(max_rounds):
 
-        print_formatted_md(f"Draft Report (Round {i+1}): \n{report}\n")
-        print(f"\n------------EDITOR--------------")
-        review = editor.review_report(report, user_intent)
-        print_formatted_md(f"Editor's Review (Round {i+1}):\n{review}\n")
+    #     print_formatted_md(f"Draft Report (Round {i+1}): \n{report}\n")
+    #     print(f"\n------------EDITOR--------------")
+    #     review = editor.review_report(report, user_intent)
+    #     print_formatted_md(f"Editor's Review (Round {i+1}):\n{review}\n")
 
-        if "meets the user's expectations" in review.lower():
-            break
-        elif i<max_rounds:
-            print(f"\n-----------AUTHOR-----------------")
-            print("Revising report based on editor's feedback...\n")
-            report = author.revise_report(report, review, user_intent)
-        else:
-            print(f"\n-----------SYSTEM-----------------")
-            print(f"""Maximum revision rounds ({max_rounds}) reached. 
-                  Proceeding with the current version.""")
+    #     if "meets the user's expectations" in review.lower():
+    #         break
+    #     elif i<max_rounds:
+    #         print(f"\n-----------AUTHOR-----------------")
+    #         print("Revising report based on editor's feedback...\n")
+    #         report = author.revise_report(report, review, user_intent)
+    #     else:
+    #         print(f"\n-----------SYSTEM-----------------")
+    #         print(f"""Maximum revision rounds ({max_rounds}) reached. 
+    #               Proceeding with the current version.""")
     
-    print("\n----------------------CRO------------------")
-    cro.deliver_report(report)
+    # print("\n----------------------CRO------------------")
+    # cro.deliver_report(report)
 
 if __name__ == "__main__":
     generate_report()
