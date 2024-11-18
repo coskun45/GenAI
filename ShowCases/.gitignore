@@ -1,0 +1,6 @@
+.env
+.devcontainer/
+/config
+credentials.py
+config.py
+/__pycache__

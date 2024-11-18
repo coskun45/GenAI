@@ -1,0 +1,290 @@
+[
+  {
+    "nr": 1,
+    "titel": "Versicherungsnehmer",
+    "question": "Wer ist der Versicherungsnehmer des Vertrags?",
+    "examples_names" : 
+      [
+        {
+            "kontext": "Mein Name ist John Smith, ich arbeite bei einer Versicherung.",
+            "entität": "John Smith"
+        },
+        {
+            "kontext": "Hallo, ich bin Dr. Emily Carter.",
+            "entität": "Emily Carter"
+        },
+        {
+            "kontext": "Freut mich, Sie kennenzulernen, ich bin Herr James Brown.",
+            "entität": "James Brown"
+        },
+        {
+            "kontext": "Guten Morgen, hier spricht Professorin Linda Johnson.",
+            "entität": "Linda Johnson"
+        },
+        {
+            "kontext": "Versicherungsnehmer: Frau Sarah White.",
+            "entität": "Sarah White"
+        }
+    ],
+    "answer": ""
+  },
+  {
+    "nr": 2,
+    "titel": "Geburtsdatum",
+    "question": "Welches Geburtsdatum hat der Versicherungsnehmer?",
+    "examples_geburtsdatum" :
+      [
+          {
+              "kontext": "Mein Geburtsdatum ist der 15. März 1985.",
+              "entität": "15. März 1985"
+          },
+          {
+              "kontext": "Bitte teilen Sie uns Ihr Geburtsdatum mit: 22. Juli 1990.",
+              "entität": "22. Juli 1990"
+          },
+          {
+              "kontext": "Das Geburtsdatum des Antragstellers lautet 3. Oktober 1978.",
+              "entität": "3. Oktober 1978"
+          },
+          {
+              "kontext": "Ihr Geburtsdatum ist der 5. Januar 2000.",
+              "entität": "5. Januar 2000"
+          },
+          {
+              "kontext": "Zur Verifizierung benötigen wir Ihr Geburtsdatum: 11. November 1995.",
+              "entität": "11. November 1995"
+          }
+      ]
+
+  },
+  {
+    "nr": 3,
+    "titel": "Adresse",
+    "question": "Wie ist die Adresse des Versicherungsnehmers?",
+    "examples_addresses" :
+      [
+          {
+              "kontext": "Ich wohne in der Musterstraße 12, 10115 Berlin.",
+              "entität": "Musterstraße 12, 10115 Berlin"
+          },
+          {
+              "kontext": "Mein Büro ist in der Hauptstraße 5, 80331 München.",
+              "entität": "Hauptstraße 5, 80331 München"
+          },
+          {
+              "kontext": "Die Lieferadresse ist Bahnhofstraße 3, 40221 Düsseldorf.",
+              "entität": "Bahnhofstraße 3, 40221 Düsseldorf"
+          },
+          {
+              "kontext": "Adresse von Versicherungsnehmer: Kaiserstraße 8, 50667 Köln.",
+              "entität": "Kaiserstraße 8, 50667 Köln"
+          },
+          {
+              "kontext": "Unser Lager befindet sich in der Industriestraße 4, 70565 Stuttgart.",
+              "entität": "Industriestraße 4, 70565 Stuttgart"
+          }
+      ]
+  },
+  {
+    "nr": 4,
+    "titel": "Versicherungsnummer",
+    "question": "Wie lautet die Versicherungsnummer des Versicherungsvertrags?",
+    "examples_versicherungsnummer" : 
+      [
+          {
+              "kontext": "Meine Versicherungsnummer ist 123456789.",
+              "entität": "123456789"
+          },
+          {
+              "kontext": "Die Versicherungsnummer meines Mannes lautet 987654321.",
+              "entität": "987654321"
+          },
+          {
+              "kontext": "Zur Identifikation benötigen wir Ihre Versicherungsnummer, zum Beispiel 1122334455.",
+              "entität": "1122334455"
+          },
+          {
+              "kontext": "Versicherungsnummer der versicherten Person: 5566778899.",
+              "entität": "5566778899"
+          },
+          {
+              "kontext": "Bitte geben Sie Ihre Versicherungsnummer ein, z.B. 2233445566.",
+              "entität": "2233445566"
+          }
+      ],
+
+    "answer": ""
+  },
+  {
+    "nr": 5,
+    "titel": "Kennzeichen",
+    "question": "Welches amtliche Kennzeichen trägt das versicherte Fahrzeug?",
+    "examples_amtliches_kennzeichen" : 
+      [
+          {
+              "kontext": "Mein Auto hat das amtliche Kennzeichen B-AB 1234.",
+              "entität": "B-AB 1234"
+          },
+          {
+              "kontext": "Das amtliche Kennzeichen des Firmenwagens lautet M-CD 5678.",
+              "entität": "M-CD 5678"
+          },
+          {
+              "kontext": "Das Fahrzeug ist unter dem Kennzeichen HH-EF 9012 zugelassen.",
+              "entität": "HH-EF 9012"
+          },
+          {
+              "kontext": "Amtliches Kennzeichen des Lastwagens: S-GH 3456.",
+              "entität": "S-GH 3456"
+          },
+          {
+              "kontext": "Bitte notieren Sie das Kennzeichen: K-IJ 7890.",
+              "entität": "K-IJ 7890"
+          }
+      ]
+  },
+  {
+    "nr": 6,
+    "titel": "Kilometerleistung",
+    "question": "Wie hoch ist die jährliche Kilometerleistung des Fahrzeugs laut Vertrag?",
+    "examples_jaehrliche_kilometerleistung" : 
+      [
+          {
+              "kontext": "Das Auto hat eine Kilometerleistung von 10.000 km.",
+              "entität": "50.000 km"
+          },
+          {
+              "kontext": "ich fahre jährlich 12.000 km.",
+              "entität": "120.000 km"
+          },
+          {
+              "kontext": "Wir haben eine Kilometerleistung von 15.500 km erreicht.",
+              "entität": "75.500 km"
+          },
+          {
+              "kontext": "Das Auto wird 5.000 KM gefahren",
+              "entität": "200.000 km"
+          },
+          {
+              "kontext": "Jährliche Leistung ist 12.234 km",
+              "entität": "12.234 km"
+          }
+      ]
+  },
+  {
+    "nr": 7,
+    "titel": "SF-Klasse",
+    "question": "Welche Schadenfreiheitsklasse (SF) gilt?",
+    "examples_sf_klasse" : 
+      [
+          {
+              "kontext": "Ich bin in der SF-Klasse 10 eingestuft.",
+              "entität": "SF-Klasse 10"
+          },
+          {
+              "kontext": "Mein Versicherer hat mir die SF-Klasse 15 zugewiesen.",
+              "entität": "SF-Klasse 15"
+          },
+          {
+              "kontext": "Nach dem Unfall wurde ich in die SF-Klasse 3 zurückgestuft.",
+              "entität": "SF-Klasse 3"
+          },
+          {
+              "kontext": "Meine aktuelle SF-Klasse ist 8.",
+              "entität": "SF-Klasse 8"
+          },
+          {
+              "kontext": "Für das nächste Jahr werde ich voraussichtlich die SF-Klasse 20 erreichen.",
+              "entität": "SF-Klasse 20"
+          }
+      ]
+  },
+  {
+    "nr": 8,
+    "titel": "HSN",
+    "question": "Wie lautet die Hersteller-Schlüsselnummer (HSN) des versicherten Fahrzeugs?",
+    "examples_hsn_nummer" : 
+      [
+          {
+              "kontext": "Die HSN-Nummer meines Fahrzeugs ist 0603.",
+              "entität": "0603"
+          },
+          {
+              "kontext": "Bitte geben Sie die HSN-Nummer an, zum Beispiel 0900.",
+              "entität": "0900"
+          },
+          {
+              "kontext": "Die HSN lautet 7118.",
+              "entität": "7118"
+          },
+          {
+              "kontext": "Für die Versicherung benötigen wir die HSN-Nummer 8301.",
+              "entität": "8301"
+          },
+          {
+              "kontext": "Die HSN-Nummer des Fahrzeugs ist 1234.",
+              "entität": "1234"
+          }
+      ]
+  },
+  {
+    "nr": 9,
+    "titel": "TSN",
+    "question": "Welche Typschlüsselnummer (TSN) hat das Fahrzeug?",
+    "examples_tsn_nummer" : 
+      [
+          {
+              "kontext": "Die TSN-Nummer meines Fahrzeugs ist ABC.",
+              "entität": "ABC"
+          },
+          {
+              "kontext": "Bitte geben Sie die TSN-Nummer an, zum Beispiel XYZ.",
+              "entität": "XYZ"
+          },
+          {
+              "kontext": "Die TSN lautet DEF.",
+              "entität": "DEF"
+          },
+          {
+              "kontext": "Für die Versicherung benötigen wir die TSN-Nummer GHI.",
+              "entität": "GHI"
+          },
+          {
+              "kontext": "Die TSN-Nummer des Fahrzeugs ist JKL.",
+              "entität": "JKL"
+          }
+      ]
+
+    
+  },
+  {
+    "nr": 10,
+    "titel": "IBAN",
+    "question": "Wie lautet die IBAN des Kontos für Beitragszahlungen?",
+    "examples_iban" : 
+      [
+          {
+              "kontext": "Meine IBAN ist DE89 3704 0044 0532 0130 00.",
+              "entität": "DE89 3704 0044 0532 0130 00"
+          },
+          {
+              "kontext": "Bitte überweisen Sie den Betrag auf die IBAN DE44 5001 0517 5407 3249 31.",
+              "entität": "DE44 5001 0517 5407 3249 31"
+          },
+          {
+              "kontext": "Die IBAN meines Kontos lautet DE22 1001 0010 1234 5678 91.",
+              "entität": "DE22 1001 0010 1234 5678 91"
+          },
+          {
+              "kontext": "Für die Rückerstattung benötigen wir Ihre IBAN, zum Beispiel DE98 7001 1110 2345 6789 00.",
+              "entität": "DE98 7001 1110 2345 6789 00"
+          },
+          {
+              "kontext": "Bitte prüfen Sie die IBAN: DE68 3001 0517 1234 5678 90.",
+              "entität": "DE68 3001 0517 1234 5678 90"
+          }
+      ]
+
+    
+  }
+]

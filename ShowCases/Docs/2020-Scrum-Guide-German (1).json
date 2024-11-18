@@ -1,0 +1,10 @@
+[
+    "{\"Answer_Type\": \"text\", \"Question\": \"Wer sind die Autoren des Scrum Guides?\", \"Answer\": \"Ken Schwaber und Jeff Sutherland\"}\n",
+    "{\"Answer_Type\": \"numeric\", \"Question\": \"Wie viele Seiten umfasst der Scrum Guide 2020?\", \"Answer\": \"13\"}\n",
+    "{\"Answer_Type\": \"reasoning\", \"Question\": \"Warum ist es wichtig, dass der Scrum Guide unveränderlich ist?\", \"Answer\": \"Der Scrum Guide ist unveränderlich, um sicherzustellen, dass Scrum in seiner Gesamtheit funktioniert und als Container für andere Techniken, Methoden und Praktiken dient.  Wenn man nur Teile von Scrum implementiert, ist das Ergebnis nicht Scrum.  Scrum funktioniert nur in seiner Gesamtheit und bietet einen Rahmen, der andere Techniken und Methoden integriert.\"}\n",
+    "{\"Answer_Type\": \"Numeric\", \"Question\": \"Wie viele Seiten umfasst der Scrum Guide 2020?\", \"Answer\": \"13\"}\n",
+    "{\"Answer_Type\": \"summary\", \"Question\": \"Was ist der Scrum Guide und was ist sein Zweck?\", \"Answer\": \"Der Scrum Guide ist ein Leitfaden für Scrum, der die Definition von Scrum enthält. Er wurde in den frühen 1990er Jahren entwickelt und soll Menschen auf der ganzen Welt dabei helfen, Scrum zu verstehen. Der Guide enthält die Definition von Scrum und erklärt, wie jedes Element von Scrum zu einem bestimmten Zweck dient, der für den Gesamtwert und die mit Scrum erzielten Ergebnisse wesentlich ist. Der Scrum Guide ist ein unveränderliches Dokument, das die Regeln von Scrum definiert und die Menschen in ihren Beziehungen und Interaktionen leitet.\"}\n",
+    "{\"Answer_Type\": \"People\", \"Question\": \"Wer sind die Autoren des Scrum Guides?\", \"Answer\": \"Ken Schwaber und Jeff Sutherland\"}\n",
+    "{\"Answer_Type\": \"Place\", \"Question\": \"Wo wurde Scrum zum ersten Mal auf einer Konferenz vorgestellt?\", \"Answer\": \"OOPSLA Konferenz\"}\n",
+    "{\"Answer_Type\": \"time\", \"Question\": \"Wann wurde der erste Scrum Guide veröffentlicht?\", \"Answer\": \"2010\"}\n"
+]
